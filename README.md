@@ -35,7 +35,7 @@ This project is divided into two part:
   - Label Encoading 
   - Model selection and model training 
 
-4. GUI (Tkinter)
+2. GUI (Tkinter)
 
 ## Installation
 The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries  
