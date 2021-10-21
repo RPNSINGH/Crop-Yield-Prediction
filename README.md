@@ -1,4 +1,4 @@
-# Bank Loan Prediction System :india: 
+# Crop yield Prediction System  
 
 ## Table of Content
   * [Demo](#demo)
@@ -16,31 +16,25 @@
 
 
 ## Demo
-![Capture1](https://github.com/RPNSINGH/Bank_Loan_Prediction_System/blob/main/Bank_loan_prediction/images/Capture1.PNG)
-![Capture2](https://github.com/RPNSINGH/Bank_Loan_Prediction_System/blob/main/Bank_loan_prediction/images/Capture2.PNG)
+![Capture1](https://github.com/RPNSINGH/Crop-Yield-Prediction/blob/main/crop_production/images/Capture1.PNG)
+![Capture2](https://github.com/RPNSINGH/Crop-Yield-Prediction/blob/main/crop_production/images/Capture2.PNG)
 
 ## Overview
-This is a simple Tkinter app trained with machine learning algorithms. The trained model (`Tkinter_GUI`) takes inputs (*ie Applicant's_Income($),CoApplicant's_Income($),Loan_Amount($),Loan_Amount_Term($),Gender,Married,Dependents,Education,Credit_History,Property_Area,Self_Employed*) as an input and predicts the loan approval status.
+This is a simple Tkinter app trained with machine learning algorithms. The trained model (`Tkinter_GUI`) takes inputs (*ie Crop ,State ,Cost of Cultivation ,Cost of Fertilizers,*) as an input and predicts yield(Quintal per hectare).
 
 ## Motivation
 Lets Predict because we can.
 
 ## Technical Aspect
-This project is divided into four part:
+This project is divided into two part:
 1. Data analysis and data preprocessing :
   - Using pandas to open and manipulate CSV file in jupyter notebook.
   - Visulization using :
     - Seaborn 
     - Matplotlib
   - Label Encoading 
-  - Standardization
-2. Outliers detection and removal using : 
-   - Percentile method
-   - Z score method
-   - IOR method
-3. Model selection and model training:
- - Decision Tree Classifier
- - Random Forest Classifier
+  - Model selection and model training 
+
 4. GUI (Tkinter)
 
 ## Installation
@@ -63,13 +57,10 @@ __Attention__: Please perform the steps given in these tutorials at your own ris
 ├── code 
 │   ├── final.py
 │   ├── data_analysis.ipynb
-│   ├── models_training.ipynb
-│   ├── outliers_detectiona_removal.ipynb
 │   └── TKINTER_GUI.ipynb
 ├── datasets
-│   ├── bank.csv
-│    ├──preprocessed.csv
-│    ├──train.csv
+│   ├── dataset.csv
+│   ├──training.csv
 │
 ├── images
 
@@ -80,9 +71,9 @@ __Attention__: Please perform the steps given in these tutorials at your own ris
 2. Add a better vizualization chart to display the predictions.
 
 ## Bug Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/RPNSINGH/Bank_Loan_Prediction_System/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/RPNSINGH/Crop-Yield-Prediction/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/RPNSINGH/Bank_Loan_Prediction_System/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/RPNSINGH/Crop-Yield-Prediction/issues/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
 ![python](https://github.com/RPNSINGH/Bank_Loan_Prediction_System/blob/main/Bank_loan_prediction/images/python.png)
